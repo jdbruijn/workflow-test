@@ -1,0 +1,7 @@
+name: Lint commit messages
+on:
+  push:
+
+jobs:
+  call-workflow-passing-data:
+    uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@main
