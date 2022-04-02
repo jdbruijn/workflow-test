@@ -6,7 +6,7 @@ on:
   pull_request:
 jobs:
   lint:
-    uses: vidavidorra/.github/.github/workflows/node-install-project.yml
+    uses: vidavidorra/.github/.github/workflows/node-install-project.yml@main
   release:
     needs: lint
     runs-on: ubuntu-latest
