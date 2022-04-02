@@ -6,10 +6,7 @@ on:
   pull_request:
 jobs:
   lint:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: vidavidorra/.github/.github/workflows/node-install-project.yml
+    uses: vidavidorra/.github/.github/workflows/node-install-project.yml
   release:
     needs: lint
     runs-on: ubuntu-latest
