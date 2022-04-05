@@ -1,0 +1,22 @@
+{
+  "name": "workflow-test",
+  "version": "1.0.0",
+  "description": "my test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdbruijn/workflow-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdbruijn/workflow-test/issues"
+  },
+  "homepage": "https://github.com/jdbruijn/workflow-test#readme",
+  "dependencies": {
+    "@vidavidorra/bunyan-pretty-stream": "github:vidavidorra/bunyan-pretty-stream"
+  }
+}
