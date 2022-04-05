@@ -4,4 +4,4 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: ./.github/workflows/lint-commit-messages.yml
+    uses: ./.github/workflows/lint-commit-messages
