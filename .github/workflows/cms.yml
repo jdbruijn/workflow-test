@@ -4,4 +4,4 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@main
+    uses: ./.github/workflows/lint-commit-messages.yml
